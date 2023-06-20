@@ -1,0 +1,63 @@
+/* 27/05/2023 */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+main{
+ width: 440px;
+ height: 500px;
+ background-color: #f6d114;
+ border: 5px solid black;
+ border-radius: 10px;
+ padding: 20px;
+ 
+}
+
+h1{
+ margin-bottom: 100px;
+ text-align: center;
+}
+
+#time
+{
+ margin: auto;
+ padding: 5px;
+ border: 1px solid black;
+ width: fit-content;
+ border-radius: 10px;
+ font-size: 35px;
+}
+
+#button{
+ margin-top: 100px;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+button
+{
+ width: 80px;
+ height: 30px;
+ background: green;
+ font-weight: bold;
+}
+
+@media screen and (max-width: 429px) {
+ body{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+ }
+ 
+}
